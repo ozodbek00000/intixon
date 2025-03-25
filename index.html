@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turkish food</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="spinner">
+        <div class="spinner-inner"></div>
+      </div>
+      <h1 class="loding-name">Welcome to</h1>
+      <h1 class="loding-name">turkish foods</h1>
+    </div>
+
+    <header>
+      <nav class="navbar1 navbar-expand-lg fixed-top py-3">
+        <div class="container">
+          <a href="#" class="navbar-brand text-white d-flex align-items-center">
+            <img src="./images/Frame 64.png" alt="EATURKISH_logo" />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link text-white">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a href="./news.html" class="nav-link text-white">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="./about.html" class="nav-link text-white">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="./servisec.html" class="nav-link text-white">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white">Contact Us</a>
+              </li>
+            </ul>
+            <a href="" class="btn btn-outline-light rounded-pill ms-lg-3"
+              >Log In</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero-section position-relative overflow-hidden">
+      <div class="container py-5">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6 text-white py-5">
+            <h5 class="mb-4">Chase The New Flavour</h5>
+            <h1 class="display-2 fw-bold mb-4">The Key To<br />Fine Dining</h1>
+            <p class="mb-4">
+              Sit tellus lobortis sed senectus vivamus molestie. <br />
+              Condimentum volutpat morbi facilisis quam scelerisque <br />
+              sapien. Et, penatibus aliquam amet tellus
+            </p>
+            <button class="btn btn-outline-light rounded-pill px-4 py-2">
+              Explore Menu
+            </button>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-center">
+            <div class="position-relative">
+              <div class="circular-background"></div>
+              <img
+                src="./images/main-food.png"
+                alt="Delicious Food"
+                class="food-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>SCROLL</span>
+      </div>
+    </section>
+
+    <div class="container popular-dishes-section">
+      <div class="row">
+        <div
+          class="col-12 d-flex justify-content-between align-items-center mb-4"
+        >
+          <h2 class="section-title1">Popular Dishes</h2>
+          <div>
+            <button
+              class="btn btn-sm btn-outline-secondary me-2"
+              type="button"
+              data-bs-target="#dishesCarousel"
+              data-bs-slide="prev"
+            >
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button
+              class="btn btn-sm btn-outline-secondary"
+              type="button"
+              data-bs-target="#dishesCarousel"
+              data-bs-slide="next"
+            >
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="dishesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="./images/kebab1.png"
+                    class="dish-img"
+                    alt="Barbecue Shish kebab"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h5>
+                    <div class="dish-rating">
+                      <img src="./images/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$12.00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img src="./images/pizza.png" class="dish-img" alt="Pizza" />
+                  <div class="dish-info">
+                    <h5 class="dish-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h5>
+                    <div class="dish-rating">
+                      <img src="./images/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$12.00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="./images/burger1.png"
+                    class="dish-img"
+                    alt="Burger"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h5>
+                    <div class="dish-rating">
+                      <img src="./images/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$12.00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="./images/klipartz 1 (4).png"
+                    class="dish-img"
+                    alt="Mixed Grill"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h5>
+                    <div class="dish-rating">
+                      <img src="./images/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$12.00</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="https://img.freepik.com/free-photo/turkish-kebab-with-grilled-vegetables-sauce_140725-10483.jpg"
+                    class="dish-img"
+                    alt="Turkish Kebab"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">Turkish Kebab with Vegetables</h5>
+                    <div class="dish-rating">
+                      <img src="./img/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$14.50</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="https://img.freepik.com/free-photo/turkish-pide-with-cheese-egg_140725-3467.jpg"
+                    class="dish-img"
+                    alt="Turkish Pide"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">Turkish Pide with Cheese</h5>
+                    <div class="dish-rating">
+                      <img src="./img/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$10.99</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="https://img.freepik.com/free-photo/turkish-traditional-dessert-baklava-with-honey-nuts_140725-10500.jpg"
+                    class="dish-img"
+                    alt="Baklava"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">Turkish Baklava with Honey</h5>
+                    <div class="dish-rating">
+                      <img src="./img/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$8.99</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="dish-card">
+                  <img
+                    src="https://img.freepik.com/free-photo/turkish-traditional-tea-with-sweets_140725-4475.jpg"
+                    class="dish-img"
+                    alt="Turkish Tea"
+                  />
+                  <div class="dish-info">
+                    <h5 class="dish-title">Turkish Traditional Tea</h5>
+                    <div class="dish-rating">
+                      <img src="./img/Group 134.png" alt="" />
+                    </div>
+                    <div class="dish-price">$3.50</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-logo1">
+        <img src="./images/brand-logo2.png" alt="Brand Logo" />
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <h1 class="text-left menu-title">Our Regular Menu Pack</h1>
+
+      <div class="categories-container">
+        <button class="btn btn-danger category-btn1">All</button>
+        <button class="btn btn-outline-danger category-btn1">Shawarma</button>
+        <button class="btn btn-outline-danger category-btn1">Turk Kebab</button>
+        <button class="btn btn-outline-danger category-btn1">
+          Hamburger Kebab
+        </button>
+        <button class="btn btn-outline-danger category-btn1">
+          Doner Kebab
+        </button>
+        <button class="btn btn-outline-danger category-btn1">
+          Shish Kebab
+        </button>
+        <button class="btn btn-outline-danger category-btn1">
+          French Fries Pizza
+        </button>
+        <button class="btn btn-outline-danger category-btn1">Desserts</button>
+      </div>
+
+      <div class="row">
+        <!-- Item 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/kebab2.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/klipartz 1 (4).png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/lavash.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/kebab-salad.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/pizza.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/sandvich.svg" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/shovurma.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/burger1.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/hot-dog.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/kebab2.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/kebab-salad.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="menu-item1 text-center">
+            <img src="./images/kebab1.png" alt="Barbecue Shish kebab" />
+            <h3 class="item-title">Barbecue Shish kebab Shashlik Skewer</h3>
+            <p class="item-price">$12.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- page 4 -->
+
+    <section class="testimonial-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h6>Testimony</h6>
+          <img src="./images/lupa-red.png" alt="lupa" />
+          <h2>Happy Customers</h2>
+        </div>
+
+        <div class="row">
+          <!-- Testimonial 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <h4 class="testimonial-name">Maria</h4>
+              <p class="testimonial-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <i class="bi bi-calendar"></i>
+                  <span>04/01/2023</span>
+                </div>
+                <div>
+                  <i class="bi bi-clock"></i>
+                  <span>17:15</span>
+                </div>
+                <div>
+                  <i class="bi bi-chat"></i>
+                  <span>253</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <h4 class="testimonial-name">Maria</h4>
+              <p class="testimonial-text">
+                Я всегда был самым худым и щуплым ребенком среди своих
+                сверстников. Я всегда мечтал стать как мой кумир и иметь
+                интерес...
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <i class="bi bi-calendar"></i>
+                  <span>04/01/2023</span>
+                </div>
+                <div>
+                  <i class="bi bi-clock"></i>
+                  <span>17:15</span>
+                </div>
+                <div>
+                  <i class="bi bi-chat"></i>
+                  <span>253</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="testimonial-card">
+              <h4 class="testimonial-name">Maria</h4>
+              <p class="testimonial-text">
+                Я всегда был самым худым и щуплым ребенком среди своих
+                сверстников. Я всегда мечтал стать как мой кумир и иметь
+                интерес...
+              </p>
+              <div class="testimonial-meta">
+                <div>
+                  <i class="bi bi-calendar"></i>
+                  <span>04/01/2023</span>
+                </div>
+                <div>
+                  <i class="bi bi-clock"></i>
+                  <span>17:15</span>
+                </div>
+                <div>
+                  <i class="bi bi-chat"></i>
+                  <span>253</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-controls">
+          <div class="carousel-control">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              fill="currentColor"
+              class="bi bi-arrow-left-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
+              />
+            </svg>
+          </div>
+          <div class="carousel-control">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              fill="currentColor"
+              class="bi bi-arrow-right-circle"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <img src="./images/brand-logo2.png" alt="Brand Logo" class="brand-logo" />
+    </section>
+
+    <section class="news-wrapper">
+      <div class="container">
+        <div class="news-header">
+          <h6 class="news-subtitle">News</h6>
+          <br />
+          <img src="./images/lupa-red.png" alt="" />
+          <h2 class="news-title">Gericht Updates</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 article-container">
+            <div class="article-card">
+              <img
+                src="./images/tandir.png"
+                alt="Grilling Tips"
+                class="article-image"
+              />
+              <div class="article-content">
+                <h3 class="article-title">
+                  Tips For Prepping And Caring For Your Grill
+                </h3>
+                <p class="article-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="article-footer">
+                  <a href="#" class="read-link">Read More</a>
+                  <span class="article-date">16 Apr 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="col-lg-4 col-md-6 article-container">
+            <div class="article-card">
+              <img
+                src="./images/tandir.png"
+                alt="Grilling Tips"
+                class="article-image"
+              />
+              <div class="article-content">
+                <h3 class="article-title">
+                  Tips For Prepping And Caring For Your Grill
+                </h3>
+                <p class="article-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="article-footer">
+                  <a href="#" class="read-link">Read More</a>
+                  <span class="article-date">16 Apr 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 article-container">
+            <div class="article-card">
+              <img
+                src="./images/tandir.png"
+                alt="Grilling Tips"
+                class="article-image"
+              />
+              <div class="article-content">
+                <h3 class="article-title">
+                  Tips For Prepping And Caring For Your Grill
+                </h3>
+                <p class="article-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="article-footer">
+                  <a href="#" class="read-link">Read More</a>
+                  <span class="article-date">16 Apr 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <a href="#" class="view-more-btn">View More</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="video">
+      <img src="./images/Video.png" alt="" />
+    </div>
+
+    <div class="corusell">
+      <section class="insta-section">
+        <div class="insta-container">
+          <div class="insta-row">
+            <div class="insta-text-col">
+              <h6 class="insta-small-heading">Instagram</h6>
+              <br />
+              <img src="./images/lupa-red.png" alt="" />
+              <h2 class="insta-main-heading">Photo Gallery</h2>
+              <p class="insta-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+              </p>
+              <a href="#" class="insta-button">View More</a>
+            </div>
+
+            <div class="insta-gallery-col">
+              <div class="insta-image-card">
+                <img
+                  src="./images/buldak.png"
+                  alt="Ramen Bowl"
+                  class="insta-image"
+                />
+                <div class="insta-overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    fill="white"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="insta-image-card">
+                <img
+                  src="https://cs13.pikabu.ru/post_img/big/2023/03/22/8/1679489187198827803.jpg"
+                  alt="Instagram Logo"
+                  class="insta-image"
+                />
+                <div class="insta-overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    fill="white"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="insta-image-card">
+                <img
+                  src="./images/egg.png"
+                  alt="Fried Egg"
+                  class="insta-image"
+                />
+                <div class="insta-overlay">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="50"
+                    fill="white"
+                    class="bi bi-instagram"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
